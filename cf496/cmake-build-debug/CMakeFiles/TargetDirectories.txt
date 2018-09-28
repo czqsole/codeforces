@@ -1,0 +1,7 @@
+/Users/czqsole/workspace/codeforces/cf496/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/czqsole/workspace/codeforces/cf496/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/czqsole/workspace/codeforces/cf496/cmake-build-debug/CMakeFiles/D.dir
+/Users/czqsole/workspace/codeforces/cf496/cmake-build-debug/CMakeFiles/A.dir
+/Users/czqsole/workspace/codeforces/cf496/cmake-build-debug/CMakeFiles/C.dir
+/Users/czqsole/workspace/codeforces/cf496/cmake-build-debug/CMakeFiles/B.dir
+/Users/czqsole/workspace/codeforces/cf496/cmake-build-debug/CMakeFiles/cf496.dir

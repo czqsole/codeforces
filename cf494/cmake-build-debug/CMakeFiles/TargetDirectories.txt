@@ -1,0 +1,4 @@
+/Users/czqsole/workspace/codeforces/cf494/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/czqsole/workspace/codeforces/cf494/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/czqsole/workspace/codeforces/cf494/cmake-build-debug/CMakeFiles/a.dir
+/Users/czqsole/workspace/codeforces/cf494/cmake-build-debug/CMakeFiles/cf494.dir
