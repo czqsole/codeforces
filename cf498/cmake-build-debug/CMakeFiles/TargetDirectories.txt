@@ -1,8 +1,0 @@
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/edu-a.dir
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/d.dir
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/b.dir
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/c.dir
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/a.dir
-/Users/czqsole/workspace/codeforces/cf498/cmake-build-debug/CMakeFiles/cf498.dir
