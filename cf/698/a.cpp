@@ -5,10 +5,10 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int N = 100005;
+const int N = 200005;
 
 int main() {
-    int t, n;
+    long long t, n;
     long long d[N];
     long long dd[N];
     long long c[N];
@@ -29,22 +29,29 @@ int main() {
         }
         if(!ans) {
             cout << "NO\n";
+            continue;
         }
-        for(int i=0; i < n-1;i++) {
-            if((dd[i] == dd[i+1]) || (dd[i+1] - dd[i]) % (2*(i + 1))) {
+        for(int i=1; i < n;i++) {
+            if((dd[i] == dd[i-1]) || (dd[i] - dd[i-1]) % (2*i)) {
                 ans = 0;
                 break;
             }
-            c[i] = (dd[i+1] - dd[i])/2/(i + 1);
+            c[i] = (dd[i] - dd[i-1])/2/i;
+//            cout << "c["  << i << "]:" << c[i] << endl;
+        }
+        if(!ans) {
+            cout << "NO\n";
+            continue;
         }
         for (int i = 1; i < n; ++i) {
-            dd[0] -= 2*(i+1)* c[i];
+            dd[0] -= 2 * (n - i) * c[i];
+//            cout << "dd["  << "0" << "]:" << dd[0] << endl;
         }
         if(dd[0] <= 0 || dd[0] % (2*n)) {
             ans = 0;
         }
         if(ans) {
-            cout << "YES\n;"
+            cout << "YES\n";
         } else {
             cout << "NO\n";
         }

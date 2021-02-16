@@ -1,0 +1,29 @@
+/*
+ * @Author: czqsole
+ * @Date: 2021/2/16 12:02 AM
+ */
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    int t, a[105], n;
+    cin >> t;
+    while(t--) {
+        cin >> n;
+        for (int i = 0; i < n; ++i) {
+            cin >> a[i];
+        }
+        sort(a, a + n);
+        int ans = 0;
+        for (int i = n - 1; i > 0 ; --i) {
+            if(a[i] > a[0]) {
+                ans++;
+            } else {
+                break;
+            }
+        }
+        cout << ans << endl;
+    }
+}
