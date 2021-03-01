@@ -15,22 +15,21 @@ int main() {
     cin >> t;
     while(t--) {
         cin >> n;
-        int c[4]={0};
+        vector<int> c(3);
         for (int i = 0; i < n; ++i) {
             cin >> a[i];
             c[a[i]%3] ++;
         }
         int mid = n/3, move = 0;
-        int last = 0;
-        if(c[0] > mid) {
-            last = c[0] - mid;
-            move = last;
-            if(c[1] > mid) {
-                move  = move + last + c[1] - mid;
-            } else if(c[1] < mid) {
-                
+        while(*min_element(c.begin(), c.end()) != mid) {
+            for (int i = 0; i < 3; ++i) {
+                if(c[i] > mid) {
+                    move++;
+                    c[i]--;
+                    c[(i+1) % 3]++;
+                }
             }
         }
-
+        cout << move << endl;
     }
 }
